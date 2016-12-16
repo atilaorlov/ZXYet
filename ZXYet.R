@@ -91,7 +91,7 @@ AniGam<- function(PA, n){
 # Lo convertimos despues con ImageMagick entrando al directorio
 # EN TERMINAL convert *.png  -loop 0 ani_gam.gif
 setwd('/Users/estebanorlov/Desktop/R/images')
-for(i in tail(PA$v1, n)){
+for(i in head(PA$v1, n)){
   name = paste(i,'.png',sep='')
   x<-PA[(PA$v1==i),3]
   y<-PA[PA$v1==i,4]
