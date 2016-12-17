@@ -15,7 +15,7 @@ Función que se alimenta de dos tablas, la principal y la a agregar respectivame
 PlotMS(nombre.csv)
 Crea una gráfica de barras de la máxima velocidad alcanzada por cada jugador.
 
-CutPlyr(data.csv, a:b)
+CutPlyr(data.csv, a,b)
 Función que recorta la tabla por jugador, se le puede indicar un solo jugador o un conjunto de jugadores
 
 AniGam(data.csv, n)
@@ -87,17 +87,17 @@ MrgCln( raw.csv, agg.csv )
 R function. pass two ZXYdata.csv as input ( raw and agg). The output is a new merged data frame with only one capture per second.
 
 MaxSPlot(data.csv)
-output .png file with bar plot of maximum speed reached per player. ( upload sample )
+output .png file with bar plot of maximum speed reached per player. ( see output sample in repository )
 
-CutPlyr(data.csv, a:b)
+CutPlyr(data.csv, a,b)
 Makes new .csv with data for each player in work directory
 
 AniGam(data.csv, n)
 Export .png plot of position of all players one per second to convert later to .gif animation with ImageMagick
 n is the number of captures to output. 
-( Upload sample )
+( see output sample in repository )
 
-It was written to manage ZXY data. It was tested with ZXY data that you can find at the following link for educational purposes:
+It was written to manage ZXY data. Tested with ZXY data that you can find at the following link for educational purposes:
 
 http://home.ifi.uio.no/paalh/dataset/alfheim/
 
